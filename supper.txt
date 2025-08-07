@@ -1,0 +1,7 @@
+[
+  {
+    "tien": 50,
+    "version": "V2",
+    "link": "https://raw.githubusercontent.com/kyser22/Kyserpromax/refs/heads/main/V2vippromax.sh"
+  },
+]
