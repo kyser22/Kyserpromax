@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Vip 1",
+    "version": "v1",
+    "raw": "https://raw.githubusercontent.com/binhpt567/binhpt567.github.io/refs/heads/main/ttp-ai/test.sh",
+    "price": 20
+  },
+  {
+    "name": "Vip 2",
+    "version": "v2",
+    "raw": "https://raw.githubusercontent.com/binhpt567/binhpt567.github.io/refs/heads/main/ttp-ai/test.sh",
+    "price": 50
+  }
+]
