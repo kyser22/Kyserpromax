@@ -3,5 +3,11 @@
     "key": "test1",
     "android_id": "e3c340982a65e87c",
     "price": "20"
+  },
+  
+  {
+    "key": "khang",
+    "android_id": "0dc019438cbb4d7e",
+    "price": "20"
   }
 ]
