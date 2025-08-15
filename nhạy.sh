@@ -51,8 +51,8 @@ width=$(echo $size | cut -d'x' -f1)
 height=$(echo $size | cut -d'x' -f2)
 echo ">>> Kích thước gốc: ${width}x${height}"
 
-new_width=$(($width * 3))
-new_height=$(($height * 3))
+new_width=$(($width * 1.8))
+new_height=$(($height * 1.8))
 echo ">>>  Nhân độ phân giải lên 3 lần..."
 echo ">>>  Kích thước mới: ${new_width}x${new_height}"
 
