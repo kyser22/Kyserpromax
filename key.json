@@ -4,7 +4,6 @@
     "android_id": "e3c340982a65e87c",
     "price": "20"
   },
-  
   {
     "key": "khang",
     "android_id": "0dc019438cbb4d7e",
@@ -20,47 +19,44 @@
     "android_id": "0dc019438cbb4d7e",
     "price": "70"
   },
-   {
+  {
     "key": "hungbvip",
     "android_id": "d0be20dad3b4b238",
     "price": "70"
   },
-   {
+  {
     "key": "khoibvip",
     "android_id": "ba215eb837183596",
     "price": "70"
   },
-   {
+  {
     "key": "glongbvip",
     "android_id": "132e56845e8dc988",
     "price": "70"
-   },
-   {
+  },
+  {
     "key": "thonglongbong",
     "android_id": "534a68ac9baae482",
     "price": "50"
-   },
+  },
   {
     "key": "thinhbvip",
     "android_id": "6bfa8cd17b07b1fd",
     "price": "70"
-   },
   },
   {
     "key": "quanbvip",
     "android_id": "3ef863df131b292d",
     "price": "70"
-   },
   },
   {
     "key": "hungbvip",
     "android_id": "d0be20dad3b4b238",
     "price": "70"
-   },
   },
   {
     "key": "huybvip",
     "android_id": "d0be20dad3b4b238",
     "price": "70"
-   }
+  }
 ]
