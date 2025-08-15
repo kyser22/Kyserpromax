@@ -47,7 +47,6 @@ system_optimize() {
     settings put global window_animation_scale 0.0
     settings put global transition_animation_scale 0.0
     settings put global development_settings_enabled 1
-    settings put global adb_enabled 0
     settings put global adaptive_battery_management_enabled 0
     setprop ro.sys.fw.bg_apps_limit 10
     setprop debug.performance.tuning 1
