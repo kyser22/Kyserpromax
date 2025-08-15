@@ -1,14 +1,14 @@
 [
   {
-    "name": "ModuleAimlockv1",
-    "version": "v1",
+    "name": " ModuleXAimlockV1",
+    "version": " V1",
     "raw": "https://raw.githubusercontent.com/kyser22/Kyserpromax/refs/heads/main/av1.sh",
     "price": 20
   },
   {
-    "name": "Vip 2",
-    "version": "v2",
-    "raw": "https://raw.githubusercontent.com/binhpt567/binhpt567.github.io/refs/heads/main/ttp-ai/test.sh",
+    "name": " ModuleXAimlockV2",
+    "version": "V2",
+    "raw": "https://raw.githubusercontent.com/kyser22/Kyserpromax/refs/heads/main/av2.sh",
     "price": 50
   }
 ]
