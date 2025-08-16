@@ -92,11 +92,17 @@
   {
     "key": "anhanhanh",
     "android_id": "97957af23032409f",
-    "price": "0"
-  }
+    "price": "70"
+  },
   {
     "key": "anhanhanh",
     "android_id": "97957af23032409f",
+    "price": "0"
+  },
+  
+  {
+    "key": "khang",
+    "android_id": "0dc019438cbb4d7e",
     "price": "0"
   }
 ]
