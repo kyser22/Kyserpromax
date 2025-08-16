@@ -45,17 +45,9 @@ settings put system touch.size.scale "$NEW_SIZE"
 
 echo "[OK] Đã tăng áp lực từ $CURRENT_PRESSURE → $NEW_PRESSURE"
 echo "[OK] Đã tăng kích thước từ $CURRENT_SIZE → $NEW_SIZE"
-echo ">>> Đang lấy độ phân giải hiện tại..."
-size=$(wm size | grep -o '[0-9]*x[0-9]*')
-width=$(echo $size | cut -d'x' -f1)
-height=$(echo $size | cut -d'x' -f2)
-echo ">>> Kích thước gốc: ${width}x${height}"
-
-new_width=$(($width * 3))
-new_height=$(($height * 3))
-echo ">>>  Nhân độ phân giải lên 3 lần..."
-echo ">>>  Kích thước mới: ${new_width}x${new_height}"
-
-wm size ${new_width}x${new_height}
-echo ">>>  Đã áp dụng độ phân giải mới!"
-echo "Dùng 'wm size reset' để khôi phục mặc định."
+size=$(wm size | grep -o '[0-9]\+x[0-9]\+') || exit 1
+width=$(echo "$size" | cut -d'x' -f1)
+height=$(echo "$size" | cut -d'x' -f2)
+new_width=$((width * 2))
+new_height=$((height * 2))
+wm size "${new_width}x${new_height}" || exit 1
