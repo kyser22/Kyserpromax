@@ -912,7 +912,6 @@ apply_optimizations() {
         "touch.doubletap.interval 100"
         "touch.scroll.sensitivity 2.0"
         "touch.fling.velocity 1.5"
-        "touch.recoil.compensation 0.8"
     )
 
     print_progress "Applying Graphics Boost"
@@ -934,7 +933,6 @@ apply_optimizations() {
         "debug.sf.frame_rate_multiple 3"
         "debug.hwui.overdraw none"
         "debug.hwui.target_cpu_time_percent 95"
-        "debug.hwui.recoil_reduction 0.7"
     )
 
     print_progress "Applying VSync Optimization (Smooth Drag)"
