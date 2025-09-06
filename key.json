@@ -589,5 +589,27 @@
     "key": "ngulon",
     "android_id": "e5e93473947cf3f7",
     "price": "50"
+  },
+  
+  {
+    "key": "long",
+    "android_id": "a04579576b0c5079 ",
+    "price": "0"
+  },
+  {
+    "key": "long",
+    "android_id": "a04579576b0c5079 ",
+    "price": "100"
+  },
+  
+  {
+    "key": "kimbvip",
+    "android_id": "bd644d110b0993fd ",
+    "price": "0"
+  },
+  {
+    "key": "kimbvip",
+    "android_id": "bd644d110b0993fd ",
+    "price": "100"
   }
 ]
