@@ -819,5 +819,10 @@
     "key": "phong",
     "android_id": "f20ec9470cd2429d   ",
     "price": "20"
+  },
+  {
+    "key": "khang",
+    "android_id": "580b2c9a1dbaac8e   ",
+    "price": "50"
   }
 ]
