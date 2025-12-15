@@ -46,9 +46,4 @@ settings put system touch.size.scale "$NEW_SIZE"
 echo "[OK] Đã tăng áp lực từ $CURRENT_PRESSURE → $NEW_PRESSURE"
 echo "[OK] Đã tăng kích thước từ $CURRENT_SIZE → $NEW_SIZE"
 
-size=$(wm size | grep -o '[0-9]\+x[0-9]\+') || exit 1
-width=$(echo "$size" | cut -d'x' -f1)
-height=$(echo "$size" | cut -d'x' -f2)
-new_width=$(echo "$width * 1.8" | bc | cut -d'.' -f1)
-new_height=$(echo "$height * 1.8" | bc | cut -d'.' -f1)
-wm size "${new_width}x${new_height}" || exit 1
+wm size 1400x3200
