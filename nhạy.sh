@@ -49,7 +49,7 @@ echo "[OK] Đã tăng kích thước từ $CURRENT_SIZE → $NEW_SIZE"
 size=$(wm size | grep -o '[0-9]*x[0-9]*')
 width=$(echo "$size" | cut -d'x' -f1)
 height=$(echo "$size" | cut -d'x' -f2)
-scale=1.2
+scale=1.1
 new_width=$(echo "$width * $scale" | bc | cut -d'.' -f1)
 new_height=$(echo "$height * $scale" | bc | cut -d'.' -f1)
-wm size ${new_width}x${new_height} 
+wm size ${new_width}x${new_height}
