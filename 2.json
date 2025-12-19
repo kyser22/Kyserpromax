@@ -42,6 +42,14 @@
     "version": "V3",
     "raw": "https://raw.githubusercontent.com/kyser22/Kyserpromax/refs/heads/main/Plusv3.sh",
     "price": 100
+  },
+  
+  {
+    "name": " panshoter",
+    "version": "V1",
+    "raw": "https://github.com/kyser22/Kyserpromax/raw/refs/heads/main/PanShoter.sh",
+    "price": 200
   }
+  
   
 ]
