@@ -914,5 +914,15 @@
     "key": "chamay",
     "android_id": "580b2c9a1dbaac8e   ",
     "price": "200"
-    }
+    },
+  {
+    "key": "cube",
+    "android_id": "580b2c9a1dbaac8e   ",
+    "price": "100"
+    },
+  {
+    "key": "cube",
+    "android_id": "19792a9abc06e0d3   ",
+    "price": "0"
+    },
 ]
