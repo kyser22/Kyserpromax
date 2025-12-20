@@ -47,9 +47,19 @@ echo "[OK] Đã tăng áp lực từ $CURRENT_PRESSURE → $NEW_PRESSURE"
 echo "[OK] Đã tăng kích thước từ $CURRENT_SIZE → $NEW_SIZE"
 
 size=$(wm size | grep -o '[0-9]*x[0-9]*')
-width=$(echo "$size" | cut -d'x' -f1)
-height=$(echo "$size" | cut -d'x' -f2)
-scale=1.1
-new_width=$(echo "$width * $scale" | bc | cut -d'.' -f1)
-new_height=$(echo "$height * $scale" | bc | cut -d'.' -f1)
-wm size ${new_width}x${new_height}
+w=$(echo "$size" | cut -d'x' -f1)
+h=$(echo "$size" | cut -d'x' -f2)
+
+# target: *1.1 + 100
+tw=$(echo "$w*1.1+100" | bc | cut -d'.' -f1)
+th=$(echo "$h*1.1+100" | bc | cut -d'.' -f1)
+
+# hard cap (an toàn): không vượt quá 1.15 lần
+cw=$(echo "$w*1.15" | bc | cut -d'.' -f1)
+ch=$(echo "$h*1.15" | bc | cut -d'.' -f1)
+
+# clamp
+[ "$tw" -gt "$cw" ] && tw="$cw"
+[ "$th" -gt "$ch" ] && th="$ch"
+
+wm size "${tw}x${th}" && echo "ok: ${tw}x${th}"
